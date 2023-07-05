@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.left-container {
+  background-color: rgba(83, 81, 81, 0.932);
+}
+
+.left-container > .icon-container {
+  border-bottom: 1px solid rgb(63, 62, 62);
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.left-container > .icon-container > .icon {
+  margin-right: 8px;
+}
+.left-container > .avatar > .avatar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.left-container > .avatar > span > img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.no-1 {
+  border-bottom: 1px solid rgb(172, 168, 168);
+  display: flex;
+  height: 60px;
+}
+.nav-left-right-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-right-right-container {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.no-2 {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(212, 216, 216, 0.644);
+  text-align: center;
+  margin-top: -19px;
+  color: rgb(89, 129, 218);
+  box-shadow: 2px 5px 5px 2px gray;
+}
+
+.no-3 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.no-3-1 {
+  width: 28%;
+
+  background-color: white;
+}
+.no-3 > .no-3-1 > .notification {
+  box-shadow: 2px 2px 2px gainsboro;
+  margin: 7px;
+}
+.no-3-2 {
+  width: 68%;
+
+  background-color: transparent;
+}
+.no-3-2-1 {
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 5px 2px rgb(141, 138, 138);
+}
+
+.no-3-2-2 {
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+}
